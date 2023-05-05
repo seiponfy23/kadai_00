@@ -1,0 +1,534 @@
+/* ここから下に記載していく */
+.wrap {
+    margin: auto;
+    line-height: 1.6em;
+    color: #222222;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header { 
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .logo {
+        width: 300px;
+        margin: 15px 30px 15px 30px;
+    }
+
+    ul.nav {
+        display: flex;
+        list-style: none;
+        font-size: 1.25rem;
+    }
+
+        li.nav {
+            margin-right: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+            a {
+                text-decoration: none;
+                color: #222222;
+            }
+
+.header-background {
+    position: relative;
+    }
+    .header-background img {
+        height: 70vh;
+        background-size: cover;
+        width: 100%;
+    }
+    .header-text { 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    } 
+        .header-text h1 {
+            font-size: 40px;
+            padding-bottom: 15px;
+            font-weight: 700;
+
+        }
+        .header-text h2 {
+            font-size: 24px;
+            padding-top: 15px;
+        }
+
+.problem {
+    background-color: #fafafa;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.problem h2 {
+    font-size: 18px;
+}
+
+    .problem-box {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .problem-item {
+        width: 300px;
+        background-color: #fff;
+        margin: 15px;
+    }
+
+    .problem-item img {
+        height: 150px;
+        padding: 30px;
+    }
+
+    .problem-item p {
+        text-align: center;
+        width: 230px;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .problem h1{
+        font-size: 24px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: #222222;
+        font-weight: 700;
+        text-shadow: 20px 12px 14px lightgray;
+    }
+    .problem h2{
+        font-size: 18px;
+        padding-bottom: 60px;
+    }
+
+
+.about {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    }
+    .about h1 {
+        font-size: 24px;
+        padding-bottom: 30px;
+        color: #ffd61a;
+        font-weight: 900;
+        text-shadow: 20px 12px 14px yellow;
+        }
+    .about h2 {
+        font-size: 18px;
+        padding-bottom: 60px;
+        }
+        .keymessage {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+.course {
+    text-align: center;
+    padding-bottom: 60px;
+}
+    .course h1 {
+        font-size: 24px;
+        padding-top: 60px;
+        padding-bottom: 30px;
+        color: #222222;
+        font-weight: 900;
+        text-shadow: 20px 12px 14px lightgray;
+    }
+
+    .flex-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        }
+        .flex-container img {
+            max-width: 100%;
+        }
+        
+    .course-note {
+        width: 600px;
+        padding-left: 50px;
+        background-color: #fafafa;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
+
+    .reverse .course-note {
+        width: 600px;
+        text-align: left;
+        padding-right: 50px;
+        background-color: #fafafa;
+    }
+
+    .course-text {
+        width: 480px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        align-items: center;
+    }
+
+        .course-text1 {
+            font-size: 20px;
+            font-weight: 550;
+        }
+        .course-text2 {
+            font-size: 18px ;
+            padding-top: 40px;
+            line-height: 30px;
+        }
+
+        .prolist ul {
+            padding-left: 8px;
+        }
+        
+        .prolist p {
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        .program {
+            max-width: 1200px;
+            margin: 0 auto;
+        
+        }
+        .program img {
+            width: 1200px;
+        }
+        
+        .teachers {
+            max-width: 1200px;
+            padding-bottom: 60px;
+            display: flex;
+            margin: 0 auto;
+            overflow: scroll;
+        }
+        
+        .prolist img {
+            /* width: 80%; */
+        width: 200px;
+        margin: 10px;
+            }
+        
+        
+        .grid {
+            max-width: 1200px;
+            margin:  auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        padding: 30px;
+        }
+        
+        .num {
+            color: orangered;
+            font-size: 72px;
+            font-weight: bold;
+            padding: 32px 0px 60px 0px;
+        }
+        
+        .facts {
+            text-align: center;
+            background-color: #fafafa;
+        
+            }
+            .facts h1 {
+                font-size: 24px;
+                padding-bottom: 30px;
+                color: #222222;
+                font-weight: 900;
+                text-shadow: 20px 12px 14px lightgray;
+                }
+            .facts h2 {
+                font-size: 18px;
+                padding-bottom: 30px;
+                }
+        
+
+.news {
+    text-align: center;
+    padding-bottom: 60px;
+    }
+    .news h1 {
+        font-size: 24px;
+        padding-top: 60px;
+        padding-bottom: 30px;
+        color: #ffd61a;
+        font-weight: 900;
+        text-shadow: 20px 12px 14px yellow;
+    }
+    .news h2 {
+        font-size: 18px;
+    }
+
+.field {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 60px;
+}
+
+.news-text {
+    width: 300px;
+    padding-top: 30px;
+}
+
+.date {
+    padding-bottom: 24px;
+}
+
+button {
+    display: block;
+    margin: 8px auto;
+    padding: 8px;
+    background-color: #ffd61a;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 24px;
+    font-size: 18px;
+    height: 60px;
+    width: 300px;
+    margin-bottom: 60px;
+    }
+
+button:hover {
+    background: greenyellow;
+    }
+
+.access {
+    background-color: #fafafa;
+    text-align: center;
+    padding-bottom: 60px;
+}
+    .access h1{
+        font-size: 24px;
+        padding-top: 60px;
+        padding-bottom: 30px;
+        color: #222222;
+        font-weight: 700;
+        text-shadow: 20px 12px 14px lightgray;
+    }
+    .access h2{
+        font-size: 18px;
+        padding-bottom: 60px;
+    }
+    .map {
+        padding-bottom: 60px;
+    }
+
+.access dl {
+    display: table;
+    width: 50%;
+    margin: auto;
+}
+.access dl dt {
+        width: 37%;
+        height: 50px;
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 60px;
+        text-align: left;
+        background: #fafafa;
+    }
+.access dl dd {
+        width: 63%;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+.contact {
+    text-align: center;
+}
+    .contact h1 {
+        font-size: 24px;
+        padding-top: 60px;
+        padding-bottom: 30px;
+        color: black;
+        font-weight: 700;
+        text-shadow: 20px 12px 14px lightgray;
+    }
+    
+    .contact h2 {
+        font-size: 18px;
+        padding-bottom: 60px;
+        }
+    
+        .contact-text1 {
+            padding-bottom: 30px;   
+        }
+        
+        .contact-text2 {
+            padding-bottom: 70px;
+        }
+
+form {
+    width: 1200px;
+    margin:auto;
+    text-align: left;
+}
+
+form dl {
+    display: table;
+    border: solid 1px #e1e1e1;
+    border-top: solid 2px #e1e1e1;
+    width: 70%;
+    margin: auto;
+}
+
+form dl dt {
+    width: 37%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background: #f1f1f1;
+    border-left: none;
+}
+form dl dd {
+    width: 63%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 2%;
+    border-right: none;
+}
+
+.textbox {
+    width: 400px;
+    padding: 3px 7px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+.textbox:focus {
+    outline: 0;
+    border: 2px solid #2196f3;
+}
+
+.choice {
+    width: 400px;
+    padding: 3px 7px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+input[type=checkbox]  {
+    display: none;
+}
+
+.checkbox {
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 30px;
+    position: relative;
+    width: auto;
+    user-select:none;
+}
+
+.checkbox:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    display: block;
+    height: 16px;
+    width: 16px;
+    margin-top: -8px;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid #aaa;
+}
+
+.checkbox:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    display: block;
+    height: 9px;
+    width: 5px;
+    margin-top: -7px;
+    border-right: 3px solid #2196f3;
+    border-bottom: 3px solid #2196f3;
+    opacity: 0;
+    transform: rotate(45deg);
+}
+
+input[type=checkbox]:checked + .checkbox::after {
+    opacity: 1;
+}
+
+.motiv {
+    line-height: 24px;
+    text-align: left;
+}
+
+.trigger {
+    width: 418px;
+    padding: 3px 7px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+.longmemo {
+    width: 400px;
+    padding: 3px 7px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    height: 140px;
+}
+
+.submit {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+#footer{
+    text-align: center; 
+    background-color:  #707070; 
+    padding: 30px;
+    color: #fafafa;
+}
+
+.pagetop {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: #fff;
+    border: solid 1px #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.pagetop__arrow {
+    height: 10px;
+    width: 10px;
+    border-top: 3px solid #000;
+    border-right: 3px solid #000;
+    transform: translateY(20%) rotate(-45deg);
+}
+
+
+
